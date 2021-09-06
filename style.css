@@ -1,0 +1,171 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+#header {
+  height: 80vh;
+}
+p {
+  font-weight: 400;
+}
+.carousel-inner {
+}
+
+.items1 {
+  background: url("rasmlar/image1.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  color: #fff;
+}
+.items2 {
+  background: url("./rasmlar/image2.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  color: #fff;
+}
+
+.items3 {
+  background: url("./rasmlar/image3.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  color: #fff;
+}
+
+#get {
+  background: url(./rasmlar/lights.jpg);
+  background-attachment: fixed;
+  color: #fff;
+}
+
+#info img {
+  height: 300px;
+  width: 500px;
+}
+
+#video {
+  background: url(./rasmlar/media.jpg);
+  background-attachment: fixed;
+  color: #000;
+}
+
+#footer {
+  background-color: #444;
+  color: #fff;
+}
+#madein {
+  background-color: #111;
+  color: #ddd;
+}
+
+#page {
+  background: url(./rasmlar/image1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+#middle img {
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+}
+.card {
+  color: #fff;
+}
+.red {
+  background-color: red;
+}
+.black {
+  background-color: black;
+}
+
+#servicecard .card {
+  color: #000;
+}
+
+.card-footer {
+  text-align: center;
+  color: rgb(105, 105, 105);
+}
+
+#Question {
+  background-color: #35393d;
+}
+hr {
+  margin-top: 1rem;
+  border: 0;
+  border-top: 1px solid #555;
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+figure,
+.card {
+  border-radius: 5px;
+}
+
+.card h4 {
+  font-weight: 550;
+  margin-top: 10px;
+}
+
+#staff img {
+  width: 180px;
+  height: 180px;
+
+  border-radius: 50%;
+}
+
+@media (max-width: 820px) {
+  #middle img {
+    width: 0;
+    height: 0;
+  }
+  #middle .container {
+    margin: auto;
+  }
+
+  #middle img {
+    width: 0;
+    height: 0;
+  }
+  #middle .row {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  #blog,
+  .col {
+    width: 100%;
+  }
+}
+
+@media (max-width: 530px) {
+  #info img {
+    display: none;
+  }
+
+  #gallery img {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 370px) {
+  .infoimg {
+    height: 150px;
+    width: 250px;
+  }
+  .card-body{
+    width: 99%;
+  }
+  
+}
